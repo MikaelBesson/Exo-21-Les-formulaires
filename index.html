@@ -16,11 +16,12 @@
             </div>
             <div>
                 <label for="date">date</label>
-                <input type="date">
+                <input type="date" id="date">
             </div>
+            <fieldset>
             <div>
                 <label for="color">couleur</label>
-                <input type="color" name="user_color">
+                <input type="color"  id="color" name="user_color">
             </div>
             <div>
                 <label for="option">option</label>
@@ -36,6 +37,32 @@
                     <option value="9">9</option>
                     <option value="10">10</option>
                 </select>
+            </div>
+            </fieldset>
+            <div>
+                <label for="reset">reset</label>
+                <input type="reset" id="reset">
+            </div>
+            <div>
+                <button type="submit" name="user_submit"><a href="mailto:besson.mikael04@gmail.com">ENVOYER</a></button>
+            </div>
+            <div>
+                <fieldset>
+                    <label for="sexe">Vous ete</label>
+                    <input type="radio" id="sexe" name="homme" value="homme">homme
+                    <input type="radio" id="sexe" name="femme" value="femme">femme
+                    <input type="radio" id="sexe" name="enfant" value="enfant">enfant
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <label for="matin">matin</label>
+                    <input type="checkbox" id="matin" value="matin">
+                    <label for="midi">midi</label>
+                    <input type="checkbox" id="midi" value="midi">
+                    <label for="soir">soir</label>
+                    <input type="checkbox" id="soir" value="soir">
+                </fieldset>
             </div>
         </form>
 
